@@ -148,8 +148,8 @@ def train_progressive_gan(
     resume_time             = 0.0):         # Assumed wallclock time at the beginning. Affects reporting.
 
     resume_run_id = "results/000-pgan-vim-2-dataset-preset-v2-2gpus-fp32/"
-    resume_kimg = 6069.6
-    resume_time = 1523450876.1255667
+    resume_kimg = 6249.7
+    resume_time = 1523459662.013561
 
     maintenance_start_time = time.time()
     training_set = dataset.load_dataset(data_dir=config.data_dir, verbose=True, **config.dataset)
